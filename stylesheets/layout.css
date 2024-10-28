@@ -1,0 +1,959 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1440px;
+    height:6007px;
+    display: block;
+    margin: 0 auto;
+    font-family: 'IBM Plex Mono';
+    /* position: relative; */
+}
+
+.SCREEN1 {
+    width: 1440px;
+    overflow: hidden;
+}
+
+/* body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url('../images/MAKKET2.svg');
+    width: 1440px;
+    height: 6007px;
+    opacity: 0.3;
+} */
+
+.bottlee {
+    position: absolute;
+        top: 5px;
+        left: 73px;
+}
+.kvadr1 {
+    stroke-width: 2px;
+    stroke: black;
+    position: absolute;
+        left: 494px;
+        top: 0px;
+    
+}
+.imbplex1 {
+    font-size: 180px;
+    font-weight: 500;
+    font-style:normal;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    line-height: 88%;
+    letter-spacing: -15px;
+    position: absolute;
+        top: 80px;
+        left: 520px;
+}
+.star1 {
+    position: absolute;
+        top: 162px;
+        left: 250px;
+}
+.gaz1 {
+
+    position: absolute;
+        top: 348px;
+        left: 189px;
+}
+.moon1 {
+        position: absolute;
+        top: 447px;
+        left: 0px;
+}
+
+/* ВЕКТОРЫ ДЛЯ ДЕКОРА  */
+.vect1 {
+    width: 0px;
+    height: 150puvtof68ox;
+    position: absolute;
+        top: 288px;
+        left: 26px;
+}
+.smallstar {
+    width: 45px;
+    height: 42px;
+        position: absolute;
+        top: 286px;
+        left: 48px; 
+}
+.smallstar2 {
+    width: 45px;
+    height: 42px;
+    position: absolute;
+        top: 797px;
+        left: 192px;
+}
+.vect2 {
+    width: 0px;
+    height: 59px;
+        position: absolute;
+        top: 205px;
+        left: 88px;
+}
+.vect3 {
+    width: 0px;
+    height: 85px;
+    position: absolute;
+        top: 67px;
+        left: 315px;
+}
+.vect4 {
+    width: 0px;
+    height: 36px;
+    position: absolute;
+        top: 120px;
+        left: 361px;
+}
+.vect5 {
+    width: 0px;
+    height: 239px;
+    position: absolute;
+        top: 265px;
+        left:1336px;
+}
+.vect6 {
+    width: 0px;
+    height: 129px;
+    position: absolute;
+        top: 864px;
+        left: 1336px;
+}
+.vect7 {
+    width: 0px;
+    height: 73px;
+    position: absolute;
+        top: 722px;
+        left: 215px;
+}
+.kvadr2 {
+    width: 761px;
+    height: 147px;
+    stroke-width: 2px;
+    stroke: black;
+    position: absolute;
+        left: 438px;
+        top: 441px;
+}
+.kvadr3 {
+    width: 420px;
+    height: 144px;
+    stroke-width: 2px;
+    stroke: black;
+    position: absolute;
+        left: 535px;
+        top: 567px;
+}
+.beauty {
+    width: 108px;
+    height: 157px;
+    position: absolute;
+        left: 986px;
+        top: 407px;
+}
+.mars {
+    width: 197px;
+    height: 325px;
+        position: absolute;
+        left: 0px;
+        top: 795px;
+}
+.marsov {
+    font-size: 55px;
+    font-weight: 838;
+    font-style: medium italic;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color:#FF4218;
+    line-height: 97%;
+    letter-spacing: -6px;
+    position: absolute;
+        top: 524px;
+        left: 492px;
+}
+.marsov2 {
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 1000;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #FF4218;
+    line-height: 97%;
+    letter-spacing: -px;
+    position: absolute;
+        top: 575px;
+        left: 523px;
+
+}
+.marsov2 span  {
+    font-style: italic;
+    letter-spacing: -7px;
+}
+.marsov3 {
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 900;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #FF4218;
+    line-height: 97%;
+    letter-spacing: -6px;
+    position: absolute;
+        top: 578px;
+        left: 895px;
+}
+.kvard4 {
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+        left: 493px;
+        top: 819px;
+}
+.moon2 {
+    width: 279px;
+    height: 269px;
+    position: absolute;
+        left: 340px;
+        top: 920px;
+        z-index: 2;
+}
+.mmm {
+    size: 40px;
+    position: absolute;
+        left: 826px;
+        top: 877px;
+}
+.hz {
+    font-size: 301px;
+    font-style: bold italic;
+    font-weight:600;
+    color:#FF4218;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+        left: 597px;
+        top: 729px;
+        z-index: 2;
+}
+.vect8 {
+    position: absolute;
+        top: 887px;
+        left:1399px;
+}
+.vect9 {
+    position: absolute;
+        top: 1040px;
+            left: 690px;
+}
+.vect10 {
+    position: absolute;
+        top: 1076px;
+        left: 28px;
+}
+.vect11 {
+    position: absolute;
+        top: 940px;
+        left: 345px;
+}
+.vect12 {
+    position: absolute;
+        top: 1110px;
+        left: 184px;
+}
+.plex1 {
+    font-size: 49px;
+    font-style: bold italic;
+    font-weight: 600;
+    letter-spacing: -5px;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+        left: 939px;
+        top: 939px;
+}
+.plex2 {
+    font-size: 49px;
+    font-style: bold;
+    font-weight: 800;
+    letter-spacing: -5px;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    position: absolute;
+        left: 816px;
+        top: 981px;
+}
+.plex3 {
+    font-size: 49px;
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: -5px;
+    position: absolute;
+        left: 862px;
+        top: 1023px;
+        z-index: 2;
+}
+.special {
+    font-size: 128px;
+    font-weight: 600;
+    font-style: medium italic;
+    color: black;
+    line-height: 88%;
+    letter-spacing: -12px;
+    position: absolute;
+        top: 1083px;
+        left: 670px;
+}
+.specialtext1 { 
+    font-size: 28px;
+    font-weight: 500;
+    font-style: medium italic;
+    color: black;
+    line-height: 88%;
+    letter-spacing: -2px;
+    position: absolute;
+        top: 1260px;
+        left: 209px;
+}
+.specialtext2 {
+    font-size: 28px;
+    font-weight: 500;
+    font-style: medium italic;
+    color: black;
+    line-height: 88%;
+    letter-spacing: -2px;
+    position: absolute;
+        top: 1361px;
+        left: 208px;
+}
+.specialtext3 {
+    font-size: 28px;
+    font-weight: 500;
+    font-style: medium italic;
+    color: black;
+    line-height: 88%;
+    letter-spacing: -2px;
+    position: absolute;
+        top: 1436px;
+        left: 208px;
+}
+.kvadr5 {
+    position: absolute;
+        top: 1270px;
+        left: 1031px;
+}
+.A {
+    font-size: 320px;
+    font-weight: 600;
+    font-style: bold;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    line-height: 83%;
+    letter-spacing: -15%;
+    position: absolute;
+        top: 1290px;
+        left: 931px;
+}
+.Aa {
+    font-size: 326px;
+    font-weight: 630;
+    font-style: bold;
+    color: #001C3D;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #000000;
+    line-height: 83%;
+    letter-spacing: -15%;
+    position: absolute;
+        top: 1285px;
+        left: 1072px;
+        z-index: 2;
+}
+.vect11 {
+    position: absolute;
+        top: 1350px;
+        left: 890px;
+}
+.kvadr18 {
+    position: absolute;
+        top: 1608px;
+        left: 15px;
+}
+.whitekv {
+    position: absolute;
+        top: 1598px;
+        left: 28px;
+        z-index: 2;
+}
+.vecct {
+    position: absolute;
+        top: 941px;
+        left: 345px;
+}
+.vect76 {
+    position: absolute;
+        top: 1340px;
+        left: 890px;
+        mix-blend-mode: exclusion;
+        z-index: 2;
+}
+.vect79 {
+    position: absolute;
+        top: 1574px;
+        left: 633px;
+}
+.start {
+    position: absolute;
+        top: 1410px;
+        left: 0px;
+        z-index: 6;
+}
+.vect77 {
+    position: absolute;
+        top: 1540px;
+        left: 163px;
+        mix-blend-mode: exclusion;
+        z-index: 2;
+}
+.konch {
+    position: absolute;
+        top: 1540px;
+        left: 454px;
+}
+.raketa {
+     position: absolute;
+        top: 1763px;
+        left: 433px;
+}
+.vect78 {
+    position: absolute;
+        top: 1705px;
+        left: 701px;
+}
+.future {
+    font-size: 128px;
+    font-weight: 600;
+    font-style: bold;
+    color: transparent;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color:white;line-height: 88%;
+    position: absolute;
+        top: 1936px;
+        left: 316.5px;
+}
+.defis {    
+    font-size: 128px;
+    font-weight: 600;
+    font-style: bold;
+    color:white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+    line-height: 88%;
+    position: absolute;
+        top: 1936px;
+        left: 777px;
+        z-index: 2;
+}
+.character {
+    font-size: 128px;
+    font-weight: 600;
+    font-style: bold;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+    line-height: 88%;
+    position: absolute;
+        top: 2049px;
+        left: 163px;
+}
+.character span {
+    color: transparent;}
+.starik {
+    position: absolute;
+        top: 1968px;
+        left: 1150px;
+}
+.starik2 {
+    position: absolute;
+        top: 2218px;
+        left: 249px;
+}
+.doptext1 {
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+     color: white;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    -webkit-text-stroke-color: black;
+    stroke-miterlimit: initial;
+    line-height: 97%;
+    position: absolute;
+        top: 2076px;
+        left: 1034px;
+}
+.doptext2 {
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    -webkit-text-stroke-color: black;
+    stroke-miterlimit: initial;
+    line-height: 97%;
+    position: absolute;
+        top: 2107px;
+        left: 938px;
+}
+.doptext3 { 
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    -webkit-text-stroke-color: black;
+    stroke-miterlimit: initial;
+    line-height: 97%;
+    position: absolute;
+        top: 2138px;
+        left: 1072px;
+}
+.doptext4 {
+    font-size: 32px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    -webkit-text-stroke-color: black;
+    stroke-miterlimit: initial;
+    line-height: 97%;
+    position: absolute;
+        top: 2170px;
+        left: 1014px;
+}
+.kvadr144 {
+    position: absolute;
+        top: 2242px;
+        left: 517px;
+}
+.plus {
+    font-size: 137px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    -webkit-text-stroke-color: black;
+    letter-spacing: -4px;
+    line-height: 121%;
+    position: absolute;
+        top: 2257px;
+        left: 456.5px;
+}
+.plus {
+    font-size: 137px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+    -webkit-text-stroke-color: black;
+    letter-spacing: -4px;
+    line-height: 121%;
+    position: absolute;
+        top: 2257px;
+        left: 456.5px;
+}
+.support {
+    font-size: 75px;
+    font-weight: 650;
+    font-style: normal;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: -5.5px;
+    line-height: 88%;
+    position: absolute;
+        top: 2280px;
+        left: 648px;
+}
+.frame1 {
+    position: absolute;
+        top: 2490px;
+        left: 71px;
+}
+.vect80 {
+    position: absolute;
+        top: 2452px;
+        left: 31px;
+}
+.iu1 {
+    position: absolute;
+        top: 2463.5px;
+        left: 1347.5px;
+}
+.iu2 {
+    position: absolute;
+        top: 2464px;
+        left: 30px;
+}
+.iu3 {
+    position: absolute;
+        top: 2874px;
+        left: 44px;
+}
+.iu4 {
+    position: absolute;
+        top: 2949px;
+        left: 878px;
+}
+.chicken1 {
+    position: absolute;
+        top: 2958px;
+        left: 94px;
+}
+.chicken2 {
+    position: absolute;
+        top: 3283px;
+        left: 265px;
+}
+.vect126 {
+    position: absolute;
+        top: 2993px;
+        left: 626px;
+}
+.vect127 {
+    position: absolute;
+        top: 3257px;
+        left: 118px;
+}
+.vect128 {
+    position: absolute;
+        top: 3364px;
+        left: 220px;
+}
+.due {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    letter-spacing: 0px;
+    line-height: 96%;
+    position: absolute;
+        top: 3202px;
+        left: 883px;
+}
+.due2 {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    color: black;
+    letter-spacing: 0px;
+    line-height: 96%;
+    position: absolute;
+        top: 3340px;
+        left: 883px;
+}
+.due3 {
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF4D26;
+    letter-spacing: 0px;
+    line-height: 96%;
+    position: absolute;
+        top: 3386px;
+        left: 883px;
+}
+.vect139 {
+    position: absolute;
+        top: 3416px;
+        left: 916px;
+}
+.vect130 {
+    position: absolute;
+        top: 3589px;
+        left: 160px;
+}
+.vect129 {
+    position: absolute;
+        top: 3601px;
+        left: 368px;
+}
+.fon23 {
+    position: absolute;
+        left: 42px;
+        top:3735px;
+}
+.cherta {
+    font-size: 124px;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    letter-spacing: -16px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #D1D1D1;
+    position: absolute;
+        top: 3663px;
+        left: 494px;
+}
+.frame6 {
+    position: absolute;
+        left:173px;
+        top: 3802px;
+        z-index: 4;
+}
+.vect137 {
+    position: absolute;
+        left: 0px;
+        top: 3799px;
+        z-index: 6;
+}
+.vect133 {
+    mix-blend-mode: exclusion;
+    position: absolute;
+        left: 1302px;
+        top: 3510px;
+        z-index: 7;
+}
+.rect2444 {
+    position: absolute;
+        left: 0px;
+        top: 4181px;
+        z-index: -9;
+}
+.rect2555 {
+    position: absolute;
+        left: 20px;
+        top: 4192px;
+        z-index:-6;
+}
+.gr2666 {
+    position: absolute;
+        left: 840px;
+        top: 4398px;
+}
+.gr16 {
+    position: absolute;
+        left: 854px;
+        top: 4979px;
+}
+.star18 {
+    position: absolute;
+        left: 1294px;
+        top: 4844px;
+}
+.star19 {
+    position: absolute;
+        left: 838px;
+        top: 4522px;
+}
+.vect143 {
+    position: absolute;
+        left: 793px;
+        top: 4420px;
+}
+.variety {
+    font-size: 56px;
+    font-weight: 700;
+    font-style: bold;
+    color: white;
+    letter-spacing: -2px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #FF4D26;
+    position: absolute;
+        top: 4465px;
+        left: 355px;
+        z-index: 3;
+}
+.dop {
+    font-size: 56px;
+    font-weight: 700;
+    font-style: bold;
+    color: white;
+    letter-spacing: -2px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: #FF4D26;
+    position: absolute;
+        top: 4500px;
+        left: 100.5px;
+        z-index: 4;
+}
+.dop1 {
+    font-size: 140px;
+    font-weight: 600;
+    font-style: bold;
+    letter-spacing: 5.5px;
+    color: transparent;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+    line-height: 88%;
+    position: absolute;
+        top: 4579px;
+        left: 236px;
+}
+.dop2 {
+    font-size: 140px;
+    font-weight: 600;
+    font-style: bold;
+    color: transparent;
+    letter-spacing: 5.5px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+    line-height: 88%;
+    position: absolute;
+        top: 4723px;
+        left: 58px;
+}
+.dop3 {
+    font-size: 140px;
+    font-weight: 600;
+    font-style: bold;
+    color: transparent;
+    letter-spacing: 5.5px;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: white;
+    line-height: 88%;
+    position: absolute;
+        top: 4865px;
+        left: 415.5px;
+}
+.vect147 {
+    position: absolute;
+        top: 4997px;
+        left: 269px;
+        z-index: -2;
+}
+.finalrect {
+    position: absolute;
+        top: 5411px;
+        left: 42px;
+        z-index: -2;
+}
+.finalrect2 {
+    position: absolute;
+        top: 5134px;
+        left: 144px;
+        stroke-width: 2px;
+}
+.rectstr {
+    position: absolute;
+        top: 5134px;
+        left: 144px;
+        stroke-width: 2px;
+
+}
+.finalsign {
+    font-size: 600px;
+    font-weight: 600;
+    font-style: bold;
+    letter-spacing: 5.5px;
+    color: #FF4218;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    line-height: 88%;
+    position: absolute;
+        top: 5010px;
+        left: -20px;
+}
+.contr {
+    position: absolute;
+        top: 5170px;
+        left: 224px;
+}
+.m {
+    font-size: 700px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 5.5px;
+    color: white;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    line-height: 88%;
+    position: absolute;
+        top: 5180px;
+        left: 130px;
+        z-index: 4;
+}
+.r {
+    font-size: 800px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 5.5px;
+    color: #001C3D;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    line-height: 88%;
+    position: absolute;
+        top: 5056px;
+        left: 460px;
+        z-index: 4;
+}
+.n {
+    font-size: 800px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: 5.5px;
+    color: #FF4D26;
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-color: black;
+    line-height: 88%;
+    position: absolute;
+        top: 5160px;
+        left: 752px;
+}
+.el1 {
+    position: absolute;
+        top: 5345px;
+        left: 308px;
+        z-index: 4;
+}
+.el2 {
+    position: absolute;
+        top: 5257px;
+        left: 593px;
+        z-index: 5;
+}
+.el3 {
+    position: absolute;
+        top: 5379px;
+        left: 820px;
+        z-index: 4;
+}
+.lastvect1 {
+    position: absolute;
+        top: 5292px;
+        left: 930px;
+        z-index: 4;
+}
+.lastvect2 {
+    position: absolute;
+        top: 5745px;
+        left: 413px;
+        z-index: 6;
+}
+.lastvect3 {
+    position: absolute;
+        top: 5745px;
+        left: 906px;
+        z-index: 4;
+}
+.lastdop {
+    position: absolute;
+        top: 5699px;
+        left: 1322px;
+        z-index: 4;
+}
+.podval {
+    position: absolute;
+        top: 5831px;
+        left: 0px;
+}
